@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {8C7E29F7-3AC8-45F8-BD53-77E85973C341}
+database: master
+path: /sitecore/content/dc2011/TPS Reports/Printing
+parent: {BA81EB86-B0D1-4DD5-ACD4-70AA5FAACC96}
+name: Printing
+master: {00000000-0000-0000-0000-000000000000}
+template: {1737316C-B572-454E-A49D-C3CABE124B7D}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: c86e7ea7-f120-4064-bc63-11ed4041614b
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 1368
+
+<p>Drumstick voluptate est nulla, ut aliquip commodo andouille eu eiusmod ham hock. Ullamco biltong ribeye fugiat, shank chicken nostrud swine non. Exercitation shank dolore salami. Est swine ut, spare ribs elit in ham hock dolore. Adipisicing pariatur consequat, pork loin cow in bresaola id tri-tip deserunt bacon short loin reprehenderit pancetta. Spare ribs ut voluptate, shank tri-tip biltong jerky flank nostrud. Anim dolor pig bacon veniam, beef ribs quis sausage nisi tri-tip in boudin in officia irure.</p>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 172
+
+<image mediaid="{8DF0EDC2-1E5C-4B3E-8B13-769A00C83C13}" mediapath="/Images/General/bill-lundurg-office-space" src="~/media/Images/General/bill-lundurg-office-space.ashx" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110909T071450
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c86e7ea7-f120-4064-bc63-11ed4041614b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T212825:634528421058306480
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

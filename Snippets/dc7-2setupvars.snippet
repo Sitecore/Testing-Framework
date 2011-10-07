@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dc7-2setupvars</Title>
+      <Shortcut>dc7-2setupvars</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[var db = Sitecore.Configuration.Factory.GetDatabase("web");
+            var folder = db.GetTemplate("Common/Folder");
+            var page = db.GetTemplate("dc2011/page");
+            var home = db.GetItem("/sitecore/content/dc2011");]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

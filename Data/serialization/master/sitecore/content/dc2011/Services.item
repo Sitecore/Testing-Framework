@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {133B0C0A-51AD-4777-936A-0F72D6E416A5}
+database: master
+path: /sitecore/content/dc2011/Services
+parent: {88CE1453-CC66-4636-BA5E-815611AD81EF}
+name: Services
+master: {00000000-0000-0000-0000-000000000000}
+template: {1737316C-B572-454E-A49D-C3CABE124B7D}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: 6e4e4dc8-8799-40ea-b1b5-a62197a181b8
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 832
+
+<p>In aute magna duis, id esse et proident short ribs. Ut cupidatat pork loin, bacon veniam venison eiusmod magna nostrud. Pork loin eu consectetur aliquip meatball officia. Shoulder ut in occaecat, excepteur pastrami beef pig boudin aute. Laboris officia flank chicken pastrami ea, pancetta proident. Laboris in proident cow, shoulder short ribs quis ground round hamburger ullamco sirloin dolore in nostrud chicken. Deserunt pastrami hamburger shoulder dolor strip steak sint id bresaola, nostrud venison sed.</p>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 0
+
+
+----field----
+field: {2DDDE355-18CF-48D0-8708-B9BBBAF8BCE3}
+name: Display on Menu
+key: display on menu
+content-length: 0
+
+
+----field----
+field: {A90317D4-8E30-4BEC-BB06-25D1AB5A33FF}
+name: Related Pages
+key: related pages
+content-length: 116
+
+{8C7E29F7-3AC8-45F8-BD53-77E85973C341}|{B2C1C772-7A23-48DF-98FD-4C58CBBB0851}|{BEE33E0B-C6D2-4545-A264-F5846A9A79DB}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110909T071318
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6e4e4dc8-8799-40ea-b1b5-a62197a181b8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20111004T202447:634533566871740189
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

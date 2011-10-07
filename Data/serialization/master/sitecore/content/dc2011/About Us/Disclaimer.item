@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {B2C1C772-7A23-48DF-98FD-4C58CBBB0851}
+database: master
+path: /sitecore/content/dc2011/About Us/Disclaimer
+parent: {BEE33E0B-C6D2-4545-A264-F5846A9A79DB}
+name: Disclaimer
+master: {00000000-0000-0000-0000-000000000000}
+template: {1737316C-B572-454E-A49D-C3CABE124B7D}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: 91cfc73b-0d27-4178-a474-12932e90dee8
+
+----field----
+field: {AF351A49-8D12-4540-AC2E-606E9FABD8D8}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 1332
+
+<p>Excepteur veniam tenderloin, commodo aliquip rump non ullamco velit chuck. Andouille ex corned beef, nisi consectetur fatback culpa officia chicken duis dolore. Irure ribeye pastrami, ham hock brisket tri-tip exercitation meatloaf ea. Occaecat meatloaf pastrami ground round strip steak, proident sunt. Exercitation chicken dolore, excepteur pig laboris velit ut ribeye. Tongue labore meatloaf, cupidatat eu pig laboris aliqua quis. Qui anim shank ea.</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 154
+
+<image mediaid="{B471958E-EAE5-41E0-85E6-3EF80E471F7E}" mediapath="/Images/General/office_space_fax" src="~/media/Images/General/office_space_fax.ashx" />
+----field----
+field: {A90317D4-8E30-4BEC-BB06-25D1AB5A33FF}
+name: Related Pages
+key: related pages
+content-length: 116
+
+{B2C1C772-7A23-48DF-98FD-4C58CBBB0851}|{B21D3189-1C06-4D6B-877E-12B2E9C52EFB}|{B21D3189-1C06-4D6B-877E-12B2E9C52EFB}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110909T071212
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+91cfc73b-0d27-4178-a474-12932e90dee8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T213327:634528424073708951
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

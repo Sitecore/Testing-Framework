@@ -1,0 +1,5 @@
+﻿<!-- test data -->
+<CreateItem Include="test data\**\*.*">
+  <Output ItemName="TestData" TaskParameter="Include" />
+</CreateItem>
+<Copy SourceFiles="@(TestData)" DestinationFiles="@(TestData->'$(OutputPath)\%(RelativeDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />

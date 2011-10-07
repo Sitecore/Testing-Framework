@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {6EDF9884-4F3B-4218-A94F-E54BEFDA72CA}
+database: master
+path: /sitecore/content/dc2011/TPS Reports/Cover Sheet
+parent: {BA81EB86-B0D1-4DD5-ACD4-70AA5FAACC96}
+name: Cover Sheet
+master: {00000000-0000-0000-0000-000000000000}
+template: {1737316C-B572-454E-A49D-C3CABE124B7D}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: 2e7ff13a-d35a-4576-ba52-f1cf06751cf4
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 1053
+
+<p>Bacon ipsum dolor sit amet nisi adipisicing chicken fatback, boudin tail proident. Labore magna pariatur hamburger sint, irure deserunt meatball shankle minim venison. Jerky quis tenderloin est velit. Ham biltong quis, elit pork ullamco labore duis nisi tempor bresaola shankle spare ribs sausage. Ullamco andouille turkey, quis cupidatat boudin pastrami elit. Ut jowl fugiat tenderloin corned beef cupidatat voluptate, sed ball tip dolore. Rump excepteur pig, sirloin ullamco fugiat sint occaecat t-bone jerky et commodo sed spare ribs velit.</p>
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 138
+
+<image mediaid="{3F38981D-DB10-492D-968F-A16BCCC627D2}" mediapath="/Images/General/lumbergh" src="~/media/Images/General/lumbergh.ashx" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110909T071406
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2e7ff13a-d35a-4576-ba52-f1cf06751cf4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T212919:634528421598747392
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

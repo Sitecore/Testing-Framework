@@ -1,0 +1,7 @@
+Dreamcore AU 2011 Testing Strategies with Sitecore
+==================================================
+* This project needs to be built against a Sitecore 6.5 instance. Update the <SitecorePath> property in the project files web\web.csproj and test\test.csproj to point at the website folder of an existing Sitecore 6.5 instance.
+
+* Install the packages from the data\packages folder
+
+* Deserialise the items from the data\serialization folder

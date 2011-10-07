@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dc6-1vars</Title>
+      <Shortcut>dc6-1vars</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[var db = Sitecore.Configuration.Factory.GetDatabase("web");
+            var parent = db.GetItem("/sitecore/content/dc2011/project list");
+            var cat = db.GetItem("/sitecore/content/references/categories/Rebranding");
+
+            var catItems = parent.GetChildrenInCategory(cat.ID.ToString());
+            Assert.AreEqual(2, catItems.Count());]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

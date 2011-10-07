@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {BA81EB86-B0D1-4DD5-ACD4-70AA5FAACC96}
+database: master
+path: /sitecore/content/dc2011/TPS Reports
+parent: {88CE1453-CC66-4636-BA5E-815611AD81EF}
+name: TPS Reports
+master: {00000000-0000-0000-0000-000000000000}
+template: {1737316C-B572-454E-A49D-C3CABE124B7D}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: 7e4c9fd1-82f6-4d9a-9273-d9310a75937c
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 1009
+
+<p>Non anim cillum, pork chop veniam velit boudin. Drumstick brisket aute sunt, bacon ham pork loin consectetur meatloaf in flank in laborum. Short loin fatback est, in id turkey ribeye culpa aute excepteur velit venison commodo sint. Enim short loin beef ribs elit boudin est t-bone, aliqua tongue jowl dolore tempor ham tenderloin ut. Pork loin cillum deserunt fugiat biltong, et adipisicing turkey ribeye ham ut. Beef ribs ex laboris ribeye, cow andouille hamburger ham hock adipisicing. Ground round sirloin irure cow, sed drumstick eiusmod esse.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 150
+
+<image mediaid="{B612642A-40F4-4F83-B1FF-88066D1BA795}" mediapath="/Images/General/milton stapler" src="~/media/Images/General/milton stapler.ashx" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110909T071341
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7e4c9fd1-82f6-4d9a-9273-d9310a75937c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T213006:634528422063403969
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

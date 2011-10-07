@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {3CC52FDF-FDE7-4BC9-8E10-FA881AEEF1F4}
+database: master
+path: /sitecore/content/dc2011/Project List/Website Rebranding
+parent: {44E64C48-5037-4BAA-A36F-BEB60E5C72B4}
+name: Website Rebranding
+master: {00000000-0000-0000-0000-000000000000}
+template: {1737316C-B572-454E-A49D-C3CABE124B7D}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: 2bf7426e-bc5d-46e9-b11e-a22f9fd4bad0
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 975
+
+<p>Excepteur veniam tenderloin, commodo aliquip rump non ullamco velit chuck. Andouille ex corned beef, nisi consectetur fatback culpa officia chicken duis dolore. Irure ribeye pastrami, ham hock brisket tri-tip exercitation meatloaf ea. Occaecat meatloaf pastrami ground round strip steak, proident sunt. Exercitation chicken dolore, excepteur pig laboris velit ut ribeye. Tongue labore meatloaf, cupidatat eu pig laboris aliqua quis. Qui anim shank ea.</p>
+<p>Drumstick voluptate est nulla, ut aliquip commodo andouille eu eiusmod ham hock. Ullamco biltong ribeye fugiat, shank chicken nostrud swine non. Exercitation shank dolore salami. Est swine ut, spare ribs elit in ham hock dolore. Adipisicing pariatur consequat, pork loin cow in bresaola id tri-tip deserunt bacon short loin reprehenderit pancetta. Spare ribs ut voluptate, shank tri-tip biltong jerky flank nostrud. Anim dolor pig bacon veniam, beef ribs quis sausage nisi tri-tip in boudin in officia irure.</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 156
+
+<image mediapath="" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{93E35630-51CF-4FCB-9BEE-562877A7EF43}" />
+----field----
+field: {8556B12F-2292-4A16-B9FA-747241155AE7}
+name: Category
+key: category
+content-length: 38
+
+{DBFCB540-AB5E-4BD7-8146-2B018E0AE9C4}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110920T073602
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2bf7426e-bc5d-46e9-b11e-a22f9fd4bad0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T213930:634528427704636629
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dc2-1initialcount</Title>
+      <Shortcut>dc2-1initialcount</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[var articles = ie.List(list => list.Parent.ClassName == "list");
+var count = articles.Children().Count;]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

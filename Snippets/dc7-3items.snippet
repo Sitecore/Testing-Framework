@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dc7-3items</Title>
+      <Shortcut>dc7-3items</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[using (new SecurityDisabler())
+            {
+                m_testRoot = home.Add("test", folder);
+                
+                m_pageWithTitle = m_testRoot.Add("withtitle", page);
+                m_pageWithTitle.Editing.BeginEdit();
+                m_pageWithTitle["title"] = "Different Title";
+                m_pageWithTitle.Editing.EndEdit();
+
+                m_pageNoTitle = m_testRoot.Add("notitle", page);
+            }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

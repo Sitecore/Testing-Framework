@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>dc1-1request</Title>
+			<Shortcut>dc1-1request</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="csharp"><![CDATA[var request = HttpWebRequest.Create("http://dc2011.localhost/About Us.aspx");
+            var response = request.GetResponse();
+
+            var stream = response.GetResponseStream();
+            var reader = new StreamReader(stream);
+            var responseBody = reader.ReadToEnd();
+            response.Close();]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

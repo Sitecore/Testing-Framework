@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {88CE1453-CC66-4636-BA5E-815611AD81EF}
+database: master
+path: /sitecore/content/dc2011
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: dc2011
+master: {00000000-0000-0000-0000-000000000000}
+template: {46D3B445-B545-40F1-BD81-99CC04252F05}
+templatekey: Site Home
+
+----version----
+language: en
+version: 1
+revision: e45fa426-c999-4481-8945-50dcf0aa8371
+
+----field----
+field: {7EA153BB-BF9C-4D5A-B412-B2CC7C221A7A}
+name: Site Logo
+key: site logo
+content-length: 142
+
+<image mediaid="{F396534D-259E-4C57-8108-6636FDFC1510}" mediapath="/Images/Logos/initech_logo" src="~/media/Images/Logos/initech_logo.ashx" />
+----field----
+field: {AF351A49-8D12-4540-AC2E-606E9FABD8D8}
+name: Title
+key: title
+content-length: 18
+
+Welcome to Initech
+----field----
+field: {567DCC4E-9C81-4B13-A736-3CAF5E4C0C66}
+name: Menu Title
+key: menu title
+content-length: 4
+
+Home
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 554
+
+<p>Non anim cillum, pork chop veniam velit boudin. Drumstick brisket aute sunt, bacon ham pork loin consectetur meatloaf in flank in laborum. Short loin fatback est, in id turkey ribeye culpa aute excepteur velit venison commodo sint. Enim short loin beef ribs elit boudin est t-bone, aliqua tongue jowl dolore tempor ham tenderloin ut. Pork loin cillum deserunt fugiat biltong, et adipisicing turkey ribeye ham ut. Beef ribs ex laboris ribeye, cow andouille hamburger ham hock adipisicing. Ground round sirloin irure cow, sed drumstick eiusmod esse.</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 0
+
+
+----field----
+field: {F42A6007-FC66-463E-B576-BF447528A249}
+name: Footer Links
+key: footer links
+content-length: 116
+
+{B2C1C772-7A23-48DF-98FD-4C58CBBB0851}|{133B0C0A-51AD-4777-936A-0F72D6E416A5}|{25B2F96C-174C-42CD-977D-F0228BBD7CEB}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110909T065713
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e45fa426-c999-4481-8945-50dcf0aa8371
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T214159:634528429191251658
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

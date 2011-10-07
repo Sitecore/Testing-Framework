@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {724CA2D4-9801-4912-ABCD-1CDA3BF0419E}
+database: master
+path: /sitecore/templates/dc2011/Page List/__Standard Values
+parent: {C0E96CBE-F84A-4AFF-B4E5-4BD04D9AE820}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {C0E96CBE-F84A-4AFF-B4E5-4BD04D9AE820}
+templatekey: Page List
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 523
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{85C9479A-7579-49F9-B3DA-0C4E18DBA812}">
+    <r id="{BD586E33-1AE7-46CC-B309-B2D3905269A0}" ph="page" uid="{D891D33B-C4F2-4362-BE64-D0BEB6C47A5D}" />
+    <r id="{3145014E-62B9-41FE-B124-283655E8A50C}" ph="page" uid="{FE8CE251-3E78-408A-9CA6-8A2D9306BAD4}" />
+  </d>
+  <d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" l="{75CC5CE4-8979-4008-9D3C-806477D57619}" />
+  <d id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}" l="{75CC5CE4-8979-4008-9D3C-806477D57619}" />
+</r>
+----version----
+language: en
+version: 1
+revision: 8f2da827-5481-4405-a500-b6ea3d50c26e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110920T073200
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8f2da827-5481-4405-a500-b6ea3d50c26e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110920T073304:634521007841358145
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

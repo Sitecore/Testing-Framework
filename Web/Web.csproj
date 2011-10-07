@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{621B1E83-7853-418F-9F5C-631B522EE324}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DC2011.Web</RootNamespace>
+    <AssemblyName>DC2011.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SitecorePath>c:\inetpub\dc2011\Website</SitecorePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>$(SitecorePath)\bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="Events\AutoPopulateArticles.cs" />
+    <Compile Include="Extensions\ItemExtensions.cs" />
+    <Compile Include="Extensions\SiteExtensions.cs" />
+    <Compile Include="layouts\DC2011\Filtering Page List.ascx.cs">
+      <DependentUpon>Filtering Page List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\DC2011\Filtering Page List.ascx.designer.cs">
+      <DependentUpon>Filtering Page List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\DC2011\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\DC2011\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\DC2011\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\DC2011\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\ItemReferences.cs" />
+    <Compile Include="Util\XslHelper.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="layouts\DC2011\Content with Sidebar.ascx" />
+    <Content Include="layouts\DC2011\Filtering Page List.ascx" />
+    <Content Include="layouts\DC2011\Footer.ascx" />
+    <Content Include="layouts\DC2011\Header.ascx" />
+    <Content Include="layouts\DC2011\Standard.aspx" />
+    <Content Include="xsl\DC2011\Article.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\DC2011\Common.xslt" />
+    <Content Include="xsl\DC2011\Footer Links.xslt" />
+    <Content Include="xsl\DC2011\Navigation.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\DC2011\Related Pages.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\dc2011.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="theme\standard\css\screen.less" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50733</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>-->
+  <Target Name="AfterBuild">
+    <CallTarget Targets="CopySitecoreFiles" />
+    <CreateItem Include="$(OutputPath)\*.dll">
+      <Output ItemName="BinaryFiles" TaskParameter="Include" />
+    </CreateItem>
+    <Copy SourceFiles="@(BinaryFiles)" DestinationFolder="$(SitecorePath)\bin" SkipUnchangedFiles="true" />
+    <CallTarget Targets="CompileLess" />
+    <CallTarget Targets="CopyWebFiles" />
+  </Target>
+  <Target Name="CopySitecoreFiles">
+    <CreateItem Include="layouts\**\*.ascx;layouts\**\*.aspx;xsl\**\*.xslt;**\*.config;**\*.xml">
+      <Output ItemName="SitecoreFiles" TaskParameter="Include" />
+    </CreateItem>
+    <Copy SourceFiles="@(SitecoreFiles)" DestinationFiles="@(SitecoreFiles->'$(SitecorePath)\%(RelativeDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+  <Target Name="CopyWebFiles">
+    <CreateItem Include="**\*.css;**\*.js;**\*.png;**\*.jpg;**\*.gif">
+      <Output ItemName="WebFiles" TaskParameter="Include" />
+    </CreateItem>
+    <Copy SourceFiles="@(WebFiles)" DestinationFiles="@(WebFiles->'$(SitecorePath)\%(RelativeDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+  <Target Name="CompileLess">
+    <CreateItem Include="**\*.less">
+      <Output ItemName="LessFiles" TaskParameter="Include" />
+    </CreateItem>
+    <Exec Command="..\util\dotless.Compiler.exe -m &quot;%(LessFiles.FullPath)&quot;" Condition="@(LessFiles) != ''" />
+  </Target>
+</Project>

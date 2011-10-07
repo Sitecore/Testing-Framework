@@ -1,0 +1,16 @@
+﻿<!-- Sitecore config for HttpContextless tests -->
+<Copy SourceFiles="$(SitecorePath)\web.config" DestinationFiles="$(OutputPath)\$(AssemblyName).dll.config" />
+<FileUpdate Files="$(OutputPath)\$(AssemblyName).dll.config" Regex="/App_Config" ReplacementText="..\..\Test\$(OutputPath)\App_Config" />
+<CreateItem Include="$(SitecorePath)\App_Config\**\*.*">
+  <Output ItemName="configFiles" TaskParameter="Include" />
+</CreateItem>
+<!-- Copy relative external source files -->
+<Copy SourceFiles="@(configFiles)" DestinationFolder="$(OutputPath)\App_Config\%(RecursiveDir)" />
+<!-- Copy patch includex files -->
+<Copy SourceFiles="@(configFiles)" DestinationFolder="c:\App_Config\%(RecursiveDir)" />
+<CreateItem Include="$(SitecorePath)\bin\*.dll">
+  <Output ItemName="binaryFiles" TaskParameter="Include" />
+</CreateItem>
+<Copy SourceFiles="@(binaryFiles)" DestinationFolder="$(OutputPath)" />
+
+<Import Project="$(MSBuildExtensionsPath)/MSBuildCommunityTasks/MSBuild.Community.Tasks.Targets" />

@@ -1,0 +1,261 @@
+﻿/* variables */
+@bgwash: #aaaaaa;
+@primary: #192d51;
+@secondary: #5a9fd9;
+@highlight: #ea6f0c;
+
+/* mixins */
+.flat-list {
+	margin: 3px 5px;
+	list-style: none;
+	display: inline;
+}
+
+.list-holder {
+	margin: 0;
+	padding: 0;
+}
+
+/* parametric mixins */
+.shadow(@left: 0px, @top: 0px, @length: 4px, @colour: #ffffff) {
+	-webkit-box-shadow: @left @top @length @colour;
+	-moz-box-shadow: @left @top @length @colour;
+	box-shadow: @left @top @length @colour;
+}
+
+html {
+	font-family: Tahoma, sans;
+}
+
+h1 {
+	color: @primary;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h2 {
+	color: @primary;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+h3 {
+	color: @primary;
+	font-size: 1.3em;
+}
+
+h4 {
+	color: @primary;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+a {
+	color: @highlight;
+}
+
+a:hover {
+	color: @primary;
+}
+
+nav.primary {
+	width: 100%;
+	background-color: @primary;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(@primary), to(lighten(@primary, 20%)));
+	background-image: -webkit-linear-gradient(top, @primary, lighten(@primary, 20%));
+	background-image: -moz-linear-gradient(top, @primary, lighten(@primary, 20%));
+	background-image: -ms-linear-gradient(top, @primary, lighten(@primary, 20%));
+	background-image: -o-linear-gradient(top, @primary, lighten(@primary, 20%));
+	background-image: linear-gradient(top, @primary, lighten(@primary, 20%));
+	filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorStr='"lighten(@primary, 20%)~"', EndColorStr='"@primary~"')";
+	border: solid 1px @primary;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+nav.primary ul {
+	.list-holder;
+	padding: 10px 0;
+}
+
+nav.primary li {
+	.flat-list;
+	margin: 10px;
+	position: relative;
+}
+
+nav.primary ul ul {
+	display: none;
+	top: 28px;
+	left: 0;
+	min-width: 200px;
+	background: @primary;
+	.list-holder;
+	.shadow(0px, 0px, 8px, @secondary);
+	border-bottom: solid 5px lighten(@primary, 20%);
+	font-size:0.95em;
+	font-weight: normal;
+}
+
+nav.primary ul ul a {
+	margin-left: 5px;
+	display: block;
+	border-bottom: solid 1px @highlight;
+}
+
+nav.primary ul ul a:hover {
+	border-left: solid 5px @highlight;
+	margin-left: 0;
+	background: none;
+}
+
+nav.primary ul ul li {
+	display: block;
+	.list-holder;
+}
+
+nav.primary ul ul li:last-child a {
+	border-bottom: none;
+}
+
+nav.primary li:hover ul {
+	display: block;
+	position: absolute;
+}
+
+nav.primary a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px;
+}
+
+nav.primary a:hover {	
+	/*border-bottom: solid 3px @highlight;*/
+	background-color: @primary;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(@highlight), to(lighten(@highlight, 20%)));
+	background-image: -webkit-linear-gradient(top, @highlight, lighten(@highlight, 20%));
+	background-image: -moz-linear-gradient(top, @highlight, lighten(@highlight, 20%));
+	background-image: -ms-linear-gradient(top, @highlight, lighten(@highlight, 20%));
+	background-image: -o-linear-gradient(top, @highlight, lighten(@highlight, 20%));
+	background-image: linear-gradient(top, @highlight, lighten(@highlight, 20%));
+}
+
+footer {
+	background: @bgwash;
+	border: solid 1px darken(@bgwash, 30%);
+	border-radius: 6px;
+	.shadow(0px, 0px, 4px, @secondary);
+	font-size: 0.9em;
+	float: left;
+	width: 100%;
+}
+
+nav.footer ul {
+	.list-holder;
+	text-align: right;
+	margin: 10px;
+}
+
+nav.footer li {
+	.flat-list;
+}
+
+nav.footer li:after {
+	content:"|";
+	margin-left: 10px;
+}
+
+nav.footer li:last-child:after {
+	content:"";
+}
+
+nav.footer a {
+	text-decoration: none;
+	color: @primary;
+}
+
+nav.footer a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	min-height: 250px;
+}
+
+.content img {
+	float: left;
+	margin: 10px;
+}
+
+.form {
+	padding: 10px;
+	border-radius: 6px;
+	border: solid 1px darken(@bgwash, 30%);
+	background: @bgwash;
+	background-image: -webkit-gradient(linear, left top, right top, from(@bgwash), to(darken(@bgwash, 15%)));
+	background-image: -webkit-linear-gradient(left, @bgwash, darken(@bgwash, 15%));
+	background-image: -moz-linear-gradient(left, @bgwash, darken(@bgwash, 15%));
+	background-image: -ms-linear-gradient(left, @bgwash, darken(@bgwash, 15%));
+	background-image: -o-linear-gradient(left, @bgwash, darken(@bgwash, 15%));
+	background-image: linear-gradient(left, @bgwash, darken(@bgwash, 15%));
+}
+
+.form .title {
+	color: @highlight;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.form label {
+	font-size: 0.85em;
+}
+
+.form select {
+	min-width: 200px;
+	border: solid 1px darken(@bgwash, 30%);
+}
+
+.form .buttons {
+	margin-top: 10px;
+}
+
+.list li {
+	width: 100%;
+	display: inline-block;
+}
+
+.list a {
+	color: @highlight;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.list .sub {
+	font-size: 0.85em;
+	color: darken(@bgwash, 30%);
+}
+
+.list img {
+	padding: 0;
+	margin: 0 20px 10px 0;
+}
+
+.related-pages ul {
+	padding: 0;
+}
+
+.related-pages ul li {
+	list-style: none;
+}
+
+.sidebar {
+	float: right;
+	width: 200px;
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: solid 1px @bgwash;
+}
+
+.page-content ol {
+	display: inline-block;
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dc6-2names</Title>
+      <Shortcut>dc6-2names</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[var names = from catItem in catItems
+                        select catItem.Name;
+
+            Assert.IsTrue(names.Contains("Latest News Section"));
+            Assert.IsTrue(names.Contains("Website Rebranding"));]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

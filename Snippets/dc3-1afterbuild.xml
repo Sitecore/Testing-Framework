@@ -1,0 +1,5 @@
+﻿<!-- Copy custom test runner and test suites to Sitecore -->
+<CreateItem Include="bin\*.dll;test.aspx">
+  <Output ItemName="DeployFiles" TaskParameter="Include" />
+</CreateItem>
+<Copy SourceFiles="@(DeployFiles)" DestinationFiles="@(DeployFiles->'$(SitecorePath)\%(RelativeDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dc8-2items</Title>
+      <Shortcut>dc8-2items</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[m_testRoot.Paste(File.ReadAllText(@"test data\Category Items.xml"), true, PasteMode.Overwrite);
+                m_categoryItems = m_testRoot.Axes.GetChild("Project List");]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

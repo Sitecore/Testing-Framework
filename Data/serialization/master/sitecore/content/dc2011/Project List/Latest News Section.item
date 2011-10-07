@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {B2A12FEF-BAA6-434C-89B3-88CDD2968560}
+database: master
+path: /sitecore/content/dc2011/Project List/Latest News Section
+parent: {44E64C48-5037-4BAA-A36F-BEB60E5C72B4}
+name: Latest News Section
+master: {00000000-0000-0000-0000-000000000000}
+template: {1737316C-B572-454E-A49D-C3CABE124B7D}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: a785b1a5-cbe4-4d98-8b8b-426a31a3d21e
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 1032
+
+<p>Drumstick voluptate est nulla, ut aliquip commodo andouille eu eiusmod ham hock. Ullamco biltong ribeye fugiat, shank chicken nostrud swine non. Exercitation shank dolore salami. Est swine ut, spare ribs elit in ham hock dolore. Adipisicing pariatur consequat, pork loin cow in bresaola id tri-tip deserunt bacon short loin reprehenderit pancetta. Spare ribs ut voluptate, shank tri-tip biltong jerky flank nostrud. Anim dolor pig bacon veniam, beef ribs quis sausage nisi tri-tip in boudin in officia irure.</p>
+<p>In aute magna duis, id esse et proident short ribs. Ut cupidatat pork loin, bacon veniam venison eiusmod magna nostrud. Pork loin eu consectetur aliquip meatball officia. Shoulder ut in occaecat, excepteur pastrami beef pig boudin aute. Laboris officia flank chicken pastrami ea, pancetta proident. Laboris in proident cow, shoulder short ribs quis ground round hamburger ullamco sirloin dolore in nostrud chicken. Deserunt pastrami hamburger shoulder dolor strip steak sint id bresaola, nostrud venison sed.</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 156
+
+<image mediapath="" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{B471958E-EAE5-41E0-85E6-3EF80E471F7E}" />
+----field----
+field: {8556B12F-2292-4A16-B9FA-747241155AE7}
+name: Category
+key: category
+content-length: 77
+
+{7F0B3A7B-EB34-47EE-B214-4250AF381520}|{DBFCB540-AB5E-4BD7-8146-2B018E0AE9C4}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110928T215115
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a785b1a5-cbe4-4d98-8b8b-426a31a3d21e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T215234:634528435542934954
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {44E64C48-5037-4BAA-A36F-BEB60E5C72B4}
+database: master
+path: /sitecore/content/dc2011/Project List
+parent: {88CE1453-CC66-4636-BA5E-815611AD81EF}
+name: Project List
+master: {00000000-0000-0000-0000-000000000000}
+template: {C0E96CBE-F84A-4AFF-B4E5-4BD04D9AE820}
+templatekey: Page List
+
+----version----
+language: en
+version: 1
+revision: 7ddae1f9-442d-4cb6-bb92-79afe90f67c8
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 542
+
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+----field----
+field: {2DDDE355-18CF-48D0-8708-B9BBBAF8BCE3}
+name: Display on Menu
+key: display on menu
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110920T073514
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7ddae1f9-442d-4cb6-bb92-79afe90f67c8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T213538:634528425380473694
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

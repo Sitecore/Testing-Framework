@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {B21D3189-1C06-4D6B-877E-12B2E9C52EFB}
+database: master
+path: /sitecore/content/dc2011/About Us/Privacy Policy
+parent: {BEE33E0B-C6D2-4545-A264-F5846A9A79DB}
+name: Privacy Policy
+master: {00000000-0000-0000-0000-000000000000}
+template: {1737316C-B572-454E-A49D-C3CABE124B7D}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: 6adcdc74-411f-49a0-9e1c-030d753d29b1
+
+----field----
+field: {AF351A49-8D12-4540-AC2E-606E9FABD8D8}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {7649F4A4-BB04-48EF-8B5B-B2DC18781026}
+name: Text
+key: text
+content-length: 960
+
+<p>Drumstick voluptate est nulla, ut aliquip commodo andouille eu eiusmod ham hock. Ullamco biltong ribeye fugiat, shank chicken nostrud swine non. Exercitation shank dolore salami. Est swine ut, spare ribs elit in ham hock dolore. Adipisicing pariatur consequat, pork loin cow in bresaola id tri-tip deserunt bacon short loin reprehenderit pancetta. Spare ribs ut voluptate, shank tri-tip biltong jerky flank nostrud. Anim dolor pig bacon veniam, beef ribs quis sausage nisi tri-tip in boudin in officia irure.</p>
+<ol>
+  <li>Log bug</li>
+  <li>Fix bug</li>
+  <li>Update TPS report</li>
+</ol>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+----field----
+field: {D28ABBF9-7BEA-4E67-ADA5-E3458DCD8ABC}
+name: Thumbnail
+key: thumbnail
+content-length: 156
+
+<image mediaid="{3C528285-6D9C-4675-8887-45BEEA7F719D}" mediapath="/Images/General/office-space-02_l" src="~/media/Images/General/office-space-02_l.ashx" />
+----field----
+field: {A90317D4-8E30-4BEC-BB06-25D1AB5A33FF}
+name: Related Pages
+key: related pages
+content-length: 77
+
+{B2C1C772-7A23-48DF-98FD-4C58CBBB0851}|{25B2F96C-174C-42CD-977D-F0228BBD7CEB}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110909T071251
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6adcdc74-411f-49a0-9e1c-030d753d29b1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110928T213254:634528423749130387
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
